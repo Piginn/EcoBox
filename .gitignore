@@ -1,0 +1,51 @@
+# ============================================================
+# Unreal Engine 5 — 通用忽略规则
+# ============================================================
+
+# 编译产物 / 中间文件 / 缓存
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/*/FileOpenOrder/
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.sdf
+*.sln
+*.slnx
+*.suo
+*.xcodeproj
+*.xcworkspace
+.vs/
+.vsconfig
+.idea/
+*.DotSettings.user
+
+# 打包输出
+Packaged/
+Build/*/Staged/
+Build/Receipts/
+*.pak
+*.utoc
+*.ucas
+
+# 本地 IDE / 工具配置（因人而异，不入库）
+.mcp.json
+Config/DefaultEditorPerProjectUserSettings.ini
+Config/DefaultGameUserSettings.ini
+
+# RiderLink 插件本体（体积大、随 IDE 版本变化，由 Rider 自动下发）
+Plugins/Developer/RiderLink/
+
+# 操作系统垃圾文件
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+$RECYCLE.BIN/
+
+# 日志与崩溃报告
+*.log
+*-up.log
+CrashReportClient/

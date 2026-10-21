@@ -1,0 +1,31 @@
+# 统一文本换行为 LF，避免跨平台 diff 噪音
+* text=auto eol=lf
+
+# UE 资产与二进制文件：不做换行转换、不做文本 diff
+*.uasset  binary
+*.umap    binary
+*.ubulk   binary
+*.uexp    binary
+*.upk     binary
+*.pak     binary
+*.utoc    binary
+*.ucas    binary
+*.png     binary
+*.jpg     binary
+*.jpeg    binary
+*.ico     binary
+*.wav     binary
+*.mp3     binary
+*.fbx     binary
+*.dll     binary
+*.pdb     binary
+*.lib     binary
+
+# 源码
+*.h       text
+*.cpp     text
+*.cs      text
+*.ini     text
+*.md      text
+*.json    text
+*.uproject text
